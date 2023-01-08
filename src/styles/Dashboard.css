@@ -1,0 +1,383 @@
+.dashboard_conatiner {
+  /* border: 2px solid black; */
+  width: 60rem;
+}
+
+.darshboard_header {
+  padding: 0.45rem 0;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard_heading {
+  font-weight: 700;
+}
+
+.toggle_dashboard_rightmost {
+  display: flex;
+  align-items: center;
+  background-color: rgb(220, 225, 226);
+  font-size: 0.8rem;
+  /* justify-content: space-between; */
+  /* width: 8rem; */
+  border-radius: 0.4rem;
+}
+
+.wallet,
+.multisig {
+  /* border: 2px solid yellow; */
+  font-weight: 600;
+  color: rgb(99, 90, 90);
+  text-align: center;
+  padding: 0.3rem 0.4rem 0.3rem 0.5rem;
+}
+
+.wallet {
+  background-color: white;
+  padding: 0.15rem 0.5rem;
+  margin-left: 0.15rem;
+  border-radius: 0.3rem;
+  /* margin-right: 0.5rem; */
+}
+
+.header_below_section {
+  width: fit-content;
+  margin-top: 1rem;
+  border: 1.5px solid rgba(198, 197, 197, 0.5);
+  padding: 1.2rem 1.5rem 1.2rem 1rem;
+  border-radius: 1rem;
+  /* height: 5rem; */
+  display: flex;
+  align-items: center;
+}
+
+.square_profile {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  background-color: blue;
+  margin-right: 1rem;
+}
+
+.info_header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.upper_info_up {
+  font-weight: 600;
+}
+
+.upper_info_down {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgb(143, 133, 133);
+}
+
+.square_btn {
+  width: 2rem;
+  height: 2rem;
+  /* border: 2px solid black; */
+  border-radius: 0.4rem;
+  /* background-color: blue; */
+  margin-right: 0.3rem;
+  background-color: white;
+  margin-left: 1rem;
+  /* font-size: 1.2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(143, 133, 133);
+}
+
+.amt_shown {
+  margin-left: 3.3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.below_middle_section {
+  margin-top: 1.4rem;
+  width: 100%;
+  height: 12rem;
+}
+
+.left_middle_section {
+  width: 8.5rem;
+  height: 8rem;
+  border-right: 2px solid rgba(198, 197, 197, 0.5);
+}
+
+.up_icon_btn {
+  border: none;
+  outline: none;
+  background-color: rgba(198, 197, 197, 0.292);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  color: rgb(15, 159, 255);
+}
+
+.send_coins {
+  color: black;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.send_coins_text {
+  margin-top: 0.5rem;
+  color: rgb(143, 133, 133);
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding-right: 0.9rem;
+}
+
+.right_middle_section {
+  /* border: 2px solid black; */
+  margin-left: 1.5rem;
+  height: 8rem;
+  /* width: 100%; */
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.right_middle_top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.search_display {
+  background-color: white;
+  width: 15rem;
+  height: 2.2rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  color: rgb(143, 133, 133);
+}
+
+.left_section_search_display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.left_section_search_display span {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+
+.right_middle_center {
+  border: none;
+  outline: none;
+  border: 1.5px solid rgba(198, 197, 197, 0.5);
+  border-radius: 0.4rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus_sign {
+  font-size: 1.4rem;
+  color: rgb(143, 133, 133);
+  margin-right: 0.5rem;
+}
+
+.right_middle_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.advanced_btn span {
+  font-weight: 600;
+  color: rgb(143, 133, 133);
+}
+
+.send_btn {
+  border: 1.5px solid rgb(15, 159, 255);
+  color: rgb(15, 159, 255);
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  padding: 0.4rem 0.6rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.toggle_btn {
+  width: 2.5rem;
+  height: 1.2rem;
+  background-color: rgb(220, 225, 226);
+  margin: 0 0.5rem;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.advanced_btn {
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  width: 1.2rem;
+  height: 1rem;
+  background-color: white;
+  border-radius: 0.2rem;
+  margin-left: 0.1rem;
+}
+
+.max_btn {
+  border: none;
+  outline: none;
+  background-color: rgba(224, 224, 224, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  color: rgb(15, 159, 255);
+}
+
+.below_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.below_section .header_below_section {
+  width: 49%;
+  height: 17.5rem;
+  flex-direction: column;
+}
+
+.header_section_coins {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
+  /* border-bottom: 1.5px solid rgba(198, 197, 197, 0.5); */
+}
+
+.left_header_section_coins {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.left_header_section_coins span {
+  margin-left: 0.5rem;
+}
+
+.right_header_section_coins {
+  font-weight: 600;
+}
+
+.ico_btn {
+  border: none;
+  outline: none;
+  background-color: rgba(224, 224, 224, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: rgb(143, 133, 133);
+  border: 1.5px solid rgba(198, 197, 197, 0.5);
+}
+
+.coins {
+  list-style: none;
+}
+
+.section_coins .coins li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27rem;
+  /* padding-bottom: 1.5rem; */
+  padding-top: 0.5rem;
+  border-top: 1.5px solid rgba(198, 197, 197, 0.5);
+  color: rgb(99, 90, 90);
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.coins_logo {
+  margin: 0 1rem;
+}
+
+.nft_section_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft_box {
+  width: 12.75rem;
+  height: 10rem;
+  background-color: white;
+  /* border: 2px solid black; */
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nft_box_1 {
+  margin-right: 0.5rem;
+}
+
+.nft_box_2 {
+  margin-left: 0.5rem;
+}
+
+.img_cont {
+  margin: 0.5rem 0;
+  width: 11.75rem;
+  height: 5.5rem;
+  background-color: rgba(15, 159, 255, 0.25);
+  border-radius: 0.5rem;
+}
+
+.nft_text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.nft_t {
+  color: rgb(143, 133, 133);
+  font-size: 0.8rem;
+}
